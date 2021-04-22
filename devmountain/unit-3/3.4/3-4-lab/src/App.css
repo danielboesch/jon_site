@@ -1,0 +1,53 @@
+/*     COLORS
+black - rgb(37, 37, 37)
+blue - rgb(42, 171, 226) 
+*/
+
+body {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(42, 171, 226);
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  color: rgb(37, 37, 37);
+  align-items: center;
+}
+
+.home {
+  margin-left: 60px;
+  font-size: 25px;
+}
+
+.mainBox {
+  width:78%;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  margin-top: 30px;
+}
+
+.mainBoxParent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.prevNext {
+  /* background-color: teal; */
+  width: 78%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
