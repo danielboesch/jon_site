@@ -2,7 +2,7 @@
 
 /*                 yellow  -  rgb(255, 187, 0)                   */
 /*                 black   -  rgb(31, 31, 31);                   */
-/*                 yellow  -  rgb(255, 187, 0)                   */
+/*                 black2  -  rgb(34, 34, 34);                   */
 
 /* ------------------------------------------------------------- */
 
@@ -53,10 +53,7 @@ header {
 .menu {
   font-size: 0px;
 }
-.headerBlank:hover {
-  background-color: rgb(241, 177, 0);
-  cursor: pointer;
-}
+
 
 .headerLinks {
   list-style: none;
@@ -80,23 +77,32 @@ header {
 
 
 .dropLinks {
-  font-family: "nunito";
-  background-color: teal;
-  height: 150px;
-  width: 200px;
-  margin-left: 10%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  width: 100%;
+  height: 0px;
   list-style: none;
+  font-family: "nunito";
+  display: none;
+  overflow: hidden;
+  transition: all 0.2s;
+
+
 }
-.dropLinks >li {
-  margin-bottom: 7px;
+.dropLinks > li {
+  margin-bottom: 9px;
+  margin-left: 10%;
 }
-.dropLinks > li:hover {
+.dropLinks > li > b:hover {
   color: rgb(255, 187, 0) ;
   cursor: pointer;
 }
 
 .show {
-
+    height: 160px;
 }
 
 
@@ -247,12 +253,16 @@ header {
     min-width: 83px;
     height: 37px;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: -35px;
     display: flex;
     position: absolute;
     right: 10%;
     justify-content: center;
     align-items: center;
+  }
+  .headerBlank:hover {
+    background-color: rgb(241, 177, 0);
+    cursor: pointer;
   }
   .menu {
     font-size: 12px;
@@ -262,6 +272,9 @@ header {
     font-size: 0px;
     width: 0px;
 
+  }
+  .dropLinks {
+    display: block;
   }
 }
 @media (max-width: 768px) {

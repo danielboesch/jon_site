@@ -32,8 +32,8 @@ class App extends Component {
                                 <li><b>TEAM</b></li>
                                 <li><b>CONTACT</b></li>
                             </ul>
-                            <div class={'headerBlank'}>
-                              <span className='menu' onClick={this.toggleMenu}>MENU ☰</span>
+                            <div class={'headerBlank'} onClick={this.toggleMenu}>
+                              <span className='menu'>MENU ☰</span>
                             </div>
                             <ul className={`dropLinks ${this.state.showMenu ? "show" : ""}`}>
                                 <li><b>SERVICES</b></li>
@@ -46,7 +46,7 @@ class App extends Component {
                       </header>
 
 
-                      
+
 
                       <div class="mainBoxBox">
                       <div class="mainBox">
