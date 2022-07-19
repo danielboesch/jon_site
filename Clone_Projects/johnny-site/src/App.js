@@ -135,6 +135,7 @@ function App() {
                       <h3 className='learnMore'>Learn More About Me</h3>
                       <div className='line'></div>
                       <h3 className='arrow'>→</h3>
+                      
                     </div>
                   </div>
                 </div>
