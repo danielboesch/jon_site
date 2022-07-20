@@ -3,7 +3,7 @@ import './App.css';
 function App() {
 
   window.addEventListener("load", () => {
-    // autoSlide();
+    autoSlide();
   })
   function autoSlide(){
     setInterval(() => {
@@ -56,6 +56,10 @@ function App() {
         <div className='headerLinks'>
             {/* <div className='banner2'></div> */}
             <ul>
+              {/* <li>SPORTS</li>
+              <li>LIVE MUSIC</li>
+              <li>PORTRAITS</li>
+              <li>ABOUT</li> */}
               <li>PORTFOLIO</li>
               <li>COLLECTIONS</li>
               <li>ABOUT</li>
@@ -135,7 +139,7 @@ function App() {
                       <h3 className='learnMore'>Learn More About Me</h3>
                       <div className='line'></div>
                       <h3 className='arrow'>→</h3>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -146,8 +150,8 @@ function App() {
           </div>
         <div className = 'page page2'>
         <div className='sportsHover'>
-          <h1 className='sportsText2'>CHECK OUT MY</h1>
-          <h2 className='sportsText'>Sports Photography</h2>
+          <h1 className='sportsText2'>SEE MORE →</h1>
+          <h2 className='sportsText'>Sports</h2>
           <div className='btmFade'></div>
         </div>
       <div className='page2Container'>
@@ -163,8 +167,9 @@ function App() {
       </div>
       <div className = 'page page3'>
       <div className='sportsHover'>
-          <h1 className='sportsText2'>CHECK OUT MY</h1>
-          <h2 className='sportsText'>Concert Photography</h2>
+          <h1 className='sportsText2'>SEE MORE →</h1>
+          <h2 className='sportsText'>Live Music</h2>
+          {/* <h2 className='sportsText'>Concert Photography</h2> */}
           <div className='btmFade'></div>
         </div>
       <div className='page2Container'>
@@ -180,7 +185,7 @@ function App() {
       </div>
       <div className = 'page page4'>
       <div className='sportsHover'>
-          <h1 className='sportsText2'>CHECK OUT MY</h1>
+          <h1 className='sportsText2'>SEE MORE →</h1>
           <h2 className='sportsText'>Portraits</h2>
           <div className='btmFade'></div>
           {/* <div className='btmFade2'></div> */}
