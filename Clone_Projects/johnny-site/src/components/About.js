@@ -2,9 +2,9 @@
 const About = (props) => {
 
     return(
-        <div>
-            <h1>About Page</h1>
-        </div>
+        <div className="aboutPage">
+        <h1 className="pageText">About Page</h1>
+    </div>
     )
 
 }

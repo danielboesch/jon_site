@@ -15,7 +15,7 @@
 .header {
   background-color: rgb(17, 17, 17);
   width: 100%;
-  height: 80px;
+  height: 85px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -102,36 +102,38 @@
 
 .fullLogo {
  /* background-color: crimson; */
- width: 300px;
- height: 95px;
+ width: 220px;
+ height: 80px;
  display: flex;
- margin-left: 15px;
- margin-top: 17px;
+ justify-content: flex-start;
+ align-items: center;
+ margin-left: 55px;
 }
 
 .mainLogo {
   /* background-color: aqua; */
-  max-height:35px;
+  height:35px;
   display: flex;
   position: absolute;
-  top: 3.5%;
-  margin-left: 10px;
+  /* top: 3.5%; */
+  margin-top: -15px;
+  margin-left: 0px;
 
 }
 
 .mainLogo2 {
   /* background-color: khaki; */
-  max-height:49px;
+  max-height:44px;
   display: flex;
   position: absolute;
-  top: 2.5%;
-  margin-left: 34px;
+  margin-top: -20px;
+  margin-left: 22px;
   /* transform: rotate(360); */
   animation: loader 4s infinite;
 }
 .aboutLogo {
   /* background-color: khaki; */
-  height: 35px;
+  height: 50px;
   display: flex;
 }
 
@@ -258,20 +260,21 @@
   .pageAbout {
     background-color: rgb(17, 17, 17);
     width: 100%;
-    min-height: 400px;
+    min-height: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     /* border-top: 2px solid white; */
   }
   
 .pageAboutHeader {
   /* background-color: firebrick; */
-  width: 190px;
-  height: 110px;
+  width: 300px;
+  height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* margin-top: 20px; */
 }
 
@@ -282,9 +285,8 @@
 }
 
 .infoHeaderText {
-  font-family: Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: 600;
+  font-family: Montserrat;  font-size: 17px;
+  font-weight: 500;
   letter-spacing: 2px;
   color: white;
 }
@@ -649,6 +651,39 @@ footer > h1 {
 .follow {
   display: flex;
   margin: 0;
+}
+
+.contactPage {
+  background-color: royalblue;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutPage {
+  background-color: rgb(225, 201, 65);
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolioPage {
+  background-color: rgb(225, 78, 65);
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageText {
+  margin: 0;
+  color: white;
 }
 
 /* .js {

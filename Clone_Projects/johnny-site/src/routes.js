@@ -3,6 +3,7 @@ import Portfolio from './components/Portfolio'
 import About from './components/About'
 import Home from "./components/Home"
 import ErrorPage from './components/ErrorPage'
+import Contact from './components/Contact'
 
 
 export default(
@@ -11,6 +12,7 @@ export default(
             <Route path = '/' element={Home}/>
             <Route path = '/portfolio' element={Portfolio}/>
             <Route path = '/about' element={About}/>
+            <Route path = '/contact' element={Contact}/>
             <Route path = '*' element={ErrorPage}/>
         </Routes>
     </Router>
