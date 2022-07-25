@@ -8,16 +8,22 @@ import Contact from './Contact'
 import App from "../App"
 
 function Header() {
+    function refreshPage() {
+
+        setTimeout(() => {
+            window.location.reload(false);
+          }, 1);
+      }
     return(
         <div> 
 <Router>
             <header className="header">
             <div className='fullLogo'>
         <Link to = '/' className="links">
-            <img src="./imgs/jonLogoSpin.png" alt="jon-Logo-White"  className='mainLogo2'></img>
+            <img src="./imgs/jonLogoSpin.png" alt="jon-Logo-White"  className='mainLogo2' onClick={refreshPage}></img>
         </Link>
         <Link to = '/' className="links">
-            <img src="./imgs/jonLogoWordsFin.png" alt="jon-Logo-White2" className='mainLogo'></img>
+            <img src="./imgs/jonLogoWordsFin.png" alt="jon-Logo-White2" className='mainLogo' onClick={refreshPage}></img>
         </Link>
         {/* <Link to = '/' className="links">
             <img src="./imgs/jonLogoWhite.png" alt="jon-Logo-White"  className='mainLogo2'></img>
@@ -30,9 +36,9 @@ function Header() {
 
         <div className='headerLinks'>
             <ul>
-                <li><Link to = '/portfolio' className="links">PORTFOLIO</Link></li>
-                <li><Link to = '/about' className="links">ABOUT</Link></li>
-                <Link to = '/contact' className="links">
+                <li><Link to = '/portfolio' className="links" onClick={refreshPage}>PORTFOLIO</Link></li>
+                <li><Link to = '/about' className="links" onClick={refreshPage}>ABOUT</Link></li>
+                <Link to = '/contact' className="links" onClick={refreshPage}>
                     <div className='getInTouch'>GET IN TOUCH </div>
                 </Link>
             </ul>

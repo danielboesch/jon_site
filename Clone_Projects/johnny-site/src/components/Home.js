@@ -10,6 +10,8 @@ function Home() {
           slide(getItemActiveIndex() + 1);
         }, 4000)
       }
+
+      
     
       function slide(toIndex) {
         const itemsArray = Array.from(document.querySelectorAll(".carousel_item"));
@@ -117,41 +119,105 @@ function Home() {
                 </div>
     
               </div>
+                <div className='portHeaderContainer'>
+                    <div className="accentBlue">
+                        <img src="./imgs/accentBlueLeft.png" alt="jon-Logo-White"  className='accentBlueLeft'></img> 
+                        <img src="./imgs/accentBlueRight.png" alt="jon-Logo-White"  className='accentBlueRight'></img> 
+                    </div>
+                  <div className='pagePortHeader'>
+                    <div className='pagePortHeaderInner'>
+                        <div className="portHeaderLogoAndText">
+                            <div className='portHeaderLogo'>
+                            <img src="./imgs/jonLogoBlack2.png" alt="jon-Logo-White"  className='aboutLogo'></img>
+                            </div>
+                            <div>
+                            <h3 className='portHeaderText'>PORTFOLIOS</h3>
+                            </div>
+                        </div>
+                        <div className="portTitles">
+                            <div className="portSubContainer">
+                            <h3 className='portHeaderSubText'>SPORTS</h3>
+                            </div>
+                            <div className="portLine"></div>
+                            <div className="portSubContainer">
+                            <h3 className='portHeaderSubText'>LIVE MUSIC</h3>
+                            </div>
+                            <div className="portLine"></div>
+                            <div className="portSubContainer">
+                            <h3 className='portHeaderSubText'>PORTRAIT</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
             <div className = 'page page2'>
+
+
+
+
+
+
+
+
             <div className='sportsHover'>
-              <h1 className='sportsText2'>SEE MORE →</h1>
               <h2 className='sportsText'>Sports</h2>
-              <div className='btmFade'></div>
+              {/* <div className='btmFade'></div> */}
             </div>
           <div className='page2Container'>
             <div className='page2MiniContainer1'>
+            <h1 className='seeMoreText'>TEAM NAME</h1>
+                 <img src={'./imgs/img9.jpg'} alt='img1' className='sportsImg1'></img>
             </div>
             <div className='page2MiniContainer2'>
+            <h1 className='seeMoreText'>TEAM NAME</h1>
+            <img src={'./imgs/img14.jpg'} alt='img1' className='sportsImg1'></img>
             </div>
           </div>
           </div>
           <div className = 'page page3'>
           <div className='sportsHover'>
-              <h1 className='sportsText2'>SEE MORE →</h1>
+              {/* <h1 className='sportsText2'>SEE MORE →</h1> */}
               <h2 className='sportsText'>Live Music</h2>
-              <div className='btmFade'></div>
+              {/* <div className='btmFade'></div> */}
             </div>
           <div className='page2Container'>
-            <div className='page3MiniContainer1'></div>
-            <div className='page3MiniContainer2'></div>
+            <div className='page3MiniContainer1'>
+            <h1 className='seeMoreText'>BAND NAME</h1>
+
+            <img src={'./imgs/img18.jpg'} alt='img1' className='sportsImg1'></img>
+            </div>
+            <div className='page3MiniContainer2'>
+            <h1 className='seeMoreText'>BAND NAME</h1>
+
+            <img src={'./imgs/img17.jpg'} alt='img1' className='sportsImg1'></img>
+            
+            </div>
           </div>
           </div>
           <div className = 'page page4'>
           <div className='sportsHover'>
-              <h1 className='sportsText2'>SEE MORE →</h1>
               <h2 className='sportsText'>Portraits</h2>
-              <div className='btmFade'></div>
+              {/* <div className='btmFade'></div> */}
             </div>
           <div className='page2Container'>
-            <div className='page4MiniContainer1'></div>
-            <div className='page4MiniContainer2'></div>
+            <div className='page4MiniContainer1'>
+            <h1 className='seeMoreText'>SEE MORE</h1>
+            <img src={'./imgs/img21.jpg'} alt='img1' className='sportsImg1'></img>
+            </div>
+            <div className='page4MiniContainer2'>
+            <h1 className='seeMoreText'>SEE MORE</h1>
+
+            <img src={'./imgs/img19.jpg'} alt='img1' className='sportsImg1'></img>
+            </div>
           </div>
           </div>
+
+
+
+
+
+
+
           <footer>
             {/* <div className="footerText">
                 <h2>Jon Sepchinski</h2>
