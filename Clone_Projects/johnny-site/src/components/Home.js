@@ -153,6 +153,10 @@ function Home() {
           </div>
           </div>
           <footer>
+            {/* <div className="footerText">
+                <h2>Jon Sepchinski</h2>
+                <h3>My daily life is an endless adventure full of travels, excitement and new experiences. Follow me to see what I'm up to and to see images that don't make it here.</h3>
+            </div> */}
             <h1 className='follow'>FOLLOW</h1>
             <ul className='footerLinks'>
             <li><img src='https://cdn-icons-png.flaticon.com/512/59/59439.png' className='facebook icon'></img></li>

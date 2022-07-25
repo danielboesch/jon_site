@@ -184,13 +184,13 @@
   display: none;
   width: 100%;
   margin-right: -100%;
-  margin-top: -160px;
-  height: 75vw;
+  /* margin-top: -160px; */
+  height: 80vh;
   /* max-height: 66vw; */
   /* text-align: center; */
 }
 
-.img1 {
+/* .img1 {
   margin-top: 90px;
 }
 .img2 {
@@ -204,7 +204,7 @@
 }
 .img5 {
   margin-top: 90px;
-}
+} */
 
 .carousel_item__active,
 .carousel_item__pos_next {
@@ -253,14 +253,25 @@
 
   .carousel_img {
     display: block;
+    /* width: 100%; */
+
+    min-height: 100%;
     width: 100%;
+  object-fit: cover;
+
+
+  /* min-height: 100%; */
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 
 
   .pageAbout {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(17,17,17);
     width: 100%;
-    min-height: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,7 +286,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* margin-top: 20px; */
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .AboutHeaderContainer {
@@ -316,12 +328,13 @@ margin-left: 4px;
 }
 
 .aboutContainer {
-  width: 100%;
+  width: 80%;
   display: flex;
   margin-bottom: 50px;
 }
 
 .aboutContainerPic {
+  /* background-color: aqua; */
   display: flex;
   width: 60%;
 }
@@ -338,6 +351,9 @@ margin-left: 4px;
   flex-direction: row;
   height: auto;
   float: left;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  /* margin-left: -70px; */
 }
 
 .aboutInfoBox {
@@ -646,6 +662,10 @@ footer > h1 {
   align-items: center;
   padding: 0;
   margin: 0;
+}
+
+.footerText {
+
 }
 
 .follow {
