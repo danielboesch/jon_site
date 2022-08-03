@@ -76,14 +76,17 @@ function Home() {
               </div>
               </div>
               
-              <div className = 'page pageInfo'>
-                <div className='infoContainer'>
-                  <div className='infoContainerInner1'></div>
-                  <div className='infoLine1'></div>
-                  <div className='infoContainerInner2'></div>
-                </div>
-    
-              </div>
+              {/* <div className = 'page pageInfo'>
+              <div className="mainPageText">
+                        <h1>Sports, Live Music & Creative Portrait Photographer</h1>
+                        <div className="mainLine"></div>
+                        <div className="based">
+                            <h2>BASED IN CINCINNATI</h2>
+                            <h2 className="basedLine">|</h2>
+                            <h2>AVAILABLE FOR TRAVEL WORLDWIDE</h2>
+                        </div>
+                    </div>
+              </div> */}
     
               <div className = 'page pageAbout'>
                 <div className='AboutHeaderContainer'>
@@ -96,39 +99,41 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='aboutContainer'>
-                  <div className='aboutExtra'>
-                    <div className='aboutContainerPic'>
-                      <img src="./imgs/jonImage.jpg" alt="jon-Logo-White"  className='aboutImage'></img>
-                    </div>
-                    <div className='aboutInfoBox'>
-                      <div className='aboutInfoBox2'>
-                        <div className='aboutText'>
-                          <h3 className='hello'>Hi There!</h3>
-                          <div className='line'></div>
-                          <h1 className='imJon'>I'm Jon Sepchinski,<br></br>a Cincinnati-based<br></br>photographer</h1>
-                          <h3 className='learnMore'>Learn More About Me</h3>
-                          <div className='line'></div>
-                          <h3 className='arrow'>→</h3>
-    
+                <div className='aboutContainerOuter'>
+                    <div className='aboutContainer'>
+                    <div className='aboutExtra'>
+                        <div className='aboutContainerPic'>
+                        <img src="./imgs/jonImage.jpg" alt="jon-Logo-White"  className='aboutImage'></img>
                         </div>
-                      </div>
+                        <div className='aboutInfoBox'>
+                        <div className='aboutInfoBox2'>
+                            <div className='aboutText'>
+                            <h3 className='hello'>Hi There!</h3>
+                            <div className='line'></div>
+                            <h1 className='imJon'>I'm Jon Sepchinski,<br></br>a Cincinnati-based<br></br>photographer</h1>
+                            <h3 className='learnMore'>Learn More About Me</h3>
+                            <div className='line'></div>
+                            <h3 className='arrow'>→</h3>
+        
+                            </div>
+                        </div>
+                        </div>
+                        <div className='aboutContainerBox'></div>
                     </div>
-                    <div className='aboutContainerBox'></div>
-                  </div>
+                    </div>
                 </div>
     
               </div>
                 <div className='portHeaderContainer'>
-                    <div className="accentBlue">
+                    {/* <div className="accentBlue">
                         <img src="./imgs/accentBlueLeft.png" alt="jon-Logo-White"  className='accentBlueLeft'></img> 
                         <img src="./imgs/accentBlueRight.png" alt="jon-Logo-White"  className='accentBlueRight'></img> 
-                    </div>
+                    </div> */}
                   <div className='pagePortHeader'>
                     <div className='pagePortHeaderInner'>
                         <div className="portHeaderLogoAndText">
                             <div className='portHeaderLogo'>
-                            <img src="./imgs/jonLogoBlack2.png" alt="jon-Logo-White"  className='aboutLogo'></img>
+                            <img src="./imgs/jonLogoWhite.png" alt="jon-Logo-White"  className='aboutLogo'></img>
                             </div>
                             <div>
                             <h3 className='portHeaderText'>PORTFOLIOS</h3>
@@ -182,6 +187,7 @@ function Home() {
             </div>
           <div className='page2Container'>
             <div className='page3MiniContainer1'>
+            {/* <h1 className='seeMoreText2'>Live Music</h1> */}
             <h1 className='seeMoreText'>BAND NAME</h1>
 
             <img src={'./imgs/img18.jpg'} alt='img1' className='sportsImg1'></img>
@@ -211,25 +217,6 @@ function Home() {
             </div>
           </div>
           </div>
-
-
-
-
-
-
-
-          <footer>
-            {/* <div className="footerText">
-                <h2>Jon Sepchinski</h2>
-                <h3>My daily life is an endless adventure full of travels, excitement and new experiences. Follow me to see what I'm up to and to see images that don't make it here.</h3>
-            </div> */}
-            <h1 className='follow'>FOLLOW</h1>
-            <ul className='footerLinks'>
-            <li><img src='https://cdn-icons-png.flaticon.com/512/59/59439.png' className='facebook icon'></img></li>
-            <li><img src="https://i.ibb.co/qy7f5dp/insta-Logo.png" alt="insta-Logo" className='instagram icon'></img></li>
-            <li><img src='https://cdn-icons-png.flaticon.com/512/733/733635.png' className='twitter icon'></img></li>
-            </ul>
-          </footer>
     
         </div>
       );
